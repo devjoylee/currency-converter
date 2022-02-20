@@ -3,7 +3,7 @@ export const TAB_CURRENCY = ['USD', 'KRW', 'JPY', 'CAD', 'HKD', 'CNY'];
 
 const KEY = '7cceb7113b3a6f9436614acd65e70c26';
 
-export const API_ENDPOINT = (currencies) => `http://api.currencylayer.com/live?access_key=${KEY}&currencies=${currencies}&format=1`;
+export const API_ENDPOINT = (currencies) => `/api/live?access_key=${KEY}&currencies=${currencies}&format=1`;
 
 export const COLOR = {
   MAIN: '#FFDFDE',

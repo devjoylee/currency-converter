@@ -13,6 +13,7 @@ export const SelectConverter = () => {
     fetch(API_ENDPOINT(SELECT_CURRENCY.join(',')))
       .then((res) => res.json())
       .then((data) => {
+        console.log(data);
         for (const key in data.quotes) {
           if (Country[current].label === key.substring(3, 6)) {
             setData(data.quotes[key].toFixed(2));

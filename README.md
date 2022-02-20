@@ -56,7 +56,7 @@
 
 ## 배포 주소
 
-[http://beefplz.s3-website.ap-northeast-2.amazonaws.com/](http://beefplz.s3-website.ap-northeast-2.amazonaws.com/)
+[https://currency-converter-w.netlify.app/](https://currency-converter-w.netlify.app/)
 
 <br/>
 
